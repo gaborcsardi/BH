@@ -1,7 +1,8 @@
-0f11256b77c6c353d3b0082b12a8a0d9 *DESCRIPTION
+7372c294c2e1677bdfd0660fd7c028e2 *ChangeLog
+ec2b3808486c5939a0b82d209d07688c *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
 522eb80ba6c17d12451c8bc7da8192bd *README.md
-152f5d27e8d29c355bf7db61c0f8e4c8 *inst/NEWS.Rd
+086156a0d763ff2107f470a8c51cebc5 *inst/NEWS.Rd
 28706cd296b6372619d8e9b8b2c84ee7 *inst/include/boost/accumulators/accumulators.hpp
 9cdcc939b2ac3745faa73f88c4702211 *inst/include/boost/accumulators/accumulators_fwd.hpp
 5f83ac308ea86a5151a998ff2a79406e *inst/include/boost/accumulators/framework/accumulator_base.hpp
@@ -2014,7 +2015,7 @@ b790c43915abc120289d3bcac3a0fff3 *inst/include/boost/lambda/detail/member_ptr.hp
 0a228398ef87c142e93e54c5479fe21b *inst/include/boost/lambda/detail/return_type_traits.hpp
 f86f4da4b33c0a0bd4a04e270fa25d08 *inst/include/boost/lambda/detail/select_functions.hpp
 8d0977712defaecf69b1435770cb27b3 *inst/include/boost/lambda/lambda.hpp
-c947c0507f7fdaca8aca29504b4cc4ce *inst/include/boost/lexical_cast.hpp
+931cb2b51bccc97306f96fcc827ce94e *inst/include/boost/lexical_cast.hpp
 921d1f7fa81226d32512308dd2ce481c *inst/include/boost/limits.hpp
 eacf106dc54275215452d6d29bf024a3 *inst/include/boost/logic/tribool.hpp
 f1f7f8eb0f4c0300170a7f26bcb3709c *inst/include/boost/logic/tribool_fwd.hpp
