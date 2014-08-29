@@ -1,8 +1,8 @@
-f003c8ab6158ae88337e5e35106fece7 *ChangeLog
-0ae0e5177dded17c60a8efd7d9c858f4 *DESCRIPTION
+6727a5ede4f68e11e210644f5044e233 *ChangeLog
+78ec40194f3b654175473ede4ee347f1 *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
 522eb80ba6c17d12451c8bc7da8192bd *README.md
-e8d4949600f409f11c6a28bb83f14709 *inst/NEWS.Rd
+4f4b1143caf09b03e3e7e10b328458ee *inst/NEWS.Rd
 28706cd296b6372619d8e9b8b2c84ee7 *inst/include/boost/accumulators/accumulators.hpp
 9cdcc939b2ac3745faa73f88c4702211 *inst/include/boost/accumulators/accumulators_fwd.hpp
 5f83ac308ea86a5151a998ff2a79406e *inst/include/boost/accumulators/framework/accumulator_base.hpp
@@ -153,6 +153,7 @@ b906a4d973481c41b85069445319ce09 *inst/include/boost/algorithm/string/trim_all.h
 75479f9bebc7876d4fa23cd1df64cd88 *inst/include/boost/algorithm/string/yes_no_type.hpp
 f9d9933f1742ec1fd9691026377c33d7 *inst/include/boost/algorithm/string_regex.hpp
 695b7cb1c53d9c1b729dcac380687f74 *inst/include/boost/aligned_storage.hpp
+f1955b9c019ce92b6f4c4b2996f93eea *inst/include/boost/any.hpp
 4d2dd0359a1f8c56a269a6f5987c2c53 *inst/include/boost/archive/add_facet.hpp
 2301c2913baa8ba48ed0b585d0bff36a *inst/include/boost/archive/archive_exception.hpp
 f9b594bf6b8129a2186a482331e2ff50 *inst/include/boost/archive/basic_archive.hpp
@@ -6804,4 +6805,4 @@ a7856e173d416761cc783338225d3f2a *inst/include/boost/variant/recursive_wrapper.h
 452c42d43422eec952f4389e01b52f17 *inst/include/boost/version.hpp
 bee0458ebcf3e3f96e075bfb8f1860fd *inst/include/boost/visit_each.hpp
 e20a82e611d10a4ade8c70af6d9869dc *inst/include/boost/weak_ptr.hpp
-6808cf2c562fedd364c1ac4be640bf05 *man/BH-package.Rd
+af8c266c0582c8cfe278608955266972 *man/BH-package.Rd
