@@ -1,8 +1,8 @@
-6727a5ede4f68e11e210644f5044e233 *ChangeLog
-78ec40194f3b654175473ede4ee347f1 *DESCRIPTION
+67b0dbb992704fb4703b342fb0ab2905 *ChangeLog
+8212e8f1349968407d5d9a9fe618ece8 *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
 522eb80ba6c17d12451c8bc7da8192bd *README.md
-4f4b1143caf09b03e3e7e10b328458ee *inst/NEWS.Rd
+a0cece0bb2795dfefc09291b2f6b95cc *inst/NEWS.Rd
 28706cd296b6372619d8e9b8b2c84ee7 *inst/include/boost/accumulators/accumulators.hpp
 9cdcc939b2ac3745faa73f88c4702211 *inst/include/boost/accumulators/accumulators_fwd.hpp
 5f83ac308ea86a5151a998ff2a79406e *inst/include/boost/accumulators/framework/accumulator_base.hpp
@@ -317,6 +317,12 @@ c586b08c3465cea3b55e8106847bde9e *inst/include/boost/chrono/detail/static_assert
 68d173378cf7b5a28bf547c6684a90c7 *inst/include/boost/chrono/duration.hpp
 e5a0fb4d5175a653b32096b4854e4f37 *inst/include/boost/chrono/system_clocks.hpp
 27702f4fdc25db289e31c65466f35ae4 *inst/include/boost/chrono/time_point.hpp
+75147452a0ef53cb7f369f7ef488f436 *inst/include/boost/circular_buffer.hpp
+ce94158604c2ee3eb695572a0e2e841b *inst/include/boost/circular_buffer/base.hpp
+384c0850965bd60cc6caa6743aa26e47 *inst/include/boost/circular_buffer/debug.hpp
+4f7cb01cc5d32f68e493756c68dc3d7f *inst/include/boost/circular_buffer/details.hpp
+a1650ce2a40db15df85d48a6e5670da7 *inst/include/boost/circular_buffer/space_optimized.hpp
+1da96b803ae686fa2ad50cb0ae0e3a1e *inst/include/boost/circular_buffer_fwd.hpp
 6a990b831de89e0c06425f438c3210b3 *inst/include/boost/compressed_pair.hpp
 f88b97d85c3bb0825666f7b68d6c9d23 *inst/include/boost/concept/assert.hpp
 c6cacdf1252311ff9a081477236f164b *inst/include/boost/concept/detail/backward_compatibility.hpp
@@ -6194,6 +6200,7 @@ b3f79f9171ac2fc562f1fc0041232883 *inst/include/boost/test/impl/unit_test_monitor
 5b914381fa675364260d5e0c39dae689 *inst/include/boost/test/included/prg_exec_monitor.hpp
 87c7dc837cb145f5f776302b402ad059 *inst/include/boost/test/included/test_exec_monitor.hpp
 38d1b94828493e36e7ae82a716c92fab *inst/include/boost/test/included/unit_test.hpp
+b9a4419851c2bfc209ab861d09491e5a *inst/include/boost/test/included/unit_test_framework.hpp
 c5439785e52e3d9a207d90e4f3e1c622 *inst/include/boost/test/interaction_based.hpp
 3f81b3975cf6005cbb148f7bc36a04bc *inst/include/boost/test/minimal.hpp
 94db6147666d88215f2f4872286e17a9 *inst/include/boost/test/mock_object.hpp
@@ -6275,7 +6282,7 @@ f9e5db9fa9bb47904cd74c2cfb40db8d *inst/include/boost/test/utils/wrap_stringstrea
 6cbda42d6dfbc66652138d44fce1cf06 *inst/include/boost/test/utils/xml_printer.hpp
 8fefc2cfe2da60d7be641bddb6a040a4 *inst/include/boost/thread.hpp
 cbe8e81e1c31866785117a452abd9cf6 *inst/include/boost/thread/barrier.hpp
-e1d97a5d74aa11269f763f5d23bc76b0 *inst/include/boost/thread/condition.hpp
+c61b97f6fcfaf5a5c57e1ac3303da0e7 *inst/include/boost/thread/condition.hpp
 ec3c45edf7553896a33689b29b54b201 *inst/include/boost/thread/condition_variable.hpp
 9eeeabbbaf3feb45285ae88778afd4f0 *inst/include/boost/thread/cv_status.hpp
 9ea875f4514ceba0f0ed8578316f97d4 *inst/include/boost/thread/detail/async_func.hpp
@@ -6805,4 +6812,4 @@ a7856e173d416761cc783338225d3f2a *inst/include/boost/variant/recursive_wrapper.h
 452c42d43422eec952f4389e01b52f17 *inst/include/boost/version.hpp
 bee0458ebcf3e3f96e075bfb8f1860fd *inst/include/boost/visit_each.hpp
 e20a82e611d10a4ade8c70af6d9869dc *inst/include/boost/weak_ptr.hpp
-af8c266c0582c8cfe278608955266972 *man/BH-package.Rd
+b9d38f73faea3bd3fbf1a145727f674b *man/BH-package.Rd
