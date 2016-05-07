@@ -1,4 +1,8 @@
-## bh: Boost Headers for R  [![Build Status](https://travis-ci.org/eddelbuettel/bh.svg)](https://travis-ci.org/eddelbuettel/bh) [![License](https://img.shields.io/badge/License-BSL--1.0-brightgreen.svg?style=flat)](http://www.boost.org/users/license.html) [![Downloads](http://cranlogs.r-pkg.org/badges/BH?color=brightgreen)](http://cran.rstudio.com/package=BH)
+## bh [![Build Status](https://travis-ci.org/eddelbuettel/bh.svg)](https://travis-ci.org/eddelbuettel/bh) [![License](https://img.shields.io/badge/license-BSL--1.0-brightgreen.svg?style=flat)](http://www.boost.org/users/license.html) [![CRAN](http://www.r-pkg.org/badges/version/BH)](http://cran.r-project.org/package=BH) [![Downloads](http://cranlogs.r-pkg.org/badges/BH?color=brightgreen)](http://www.r-pkg.org/pkg/BH)
+
+Boost Headers for R
+
+### About
 
 This package provides [R](http://www.r-project.org) with access to
 [Boost](http://www.boost.org/) header files.  [Boost](http://www.boost.org/)
@@ -23,11 +27,16 @@ parts or all of their functionality.
 ### Coverage
 
 As of release 1.60, the following Boost libraries are included:
+
 > algorithm any bind circular_buffer concept config container date_time
 > detail dynamic_bitset exception filesystem foreach functional fusion
 > geometry graph heap integer interprocess intrusive io iostreams iterator
 > math move mpl multiprcecision numeric pending phoenix preprocessor random
 > range smart_ptr spirit tuple type_trains typeof unordered utility uuid
+
+A recent PR added
+
+> bimap
 
 ### See Also
 
@@ -40,7 +49,7 @@ can be used for bugs.
 
 ### Updating
 
-We aim to maintain this package in a somewhat conservative fashion and do not
+We aim to maintain this package in a somewhat conservative fashion and do not always
 immediately jump the newest Boost releases.  Rather, we (used to) start from the
 [Debian sources for Boost](https://packages.debian.org/sid/libboost-all-dev)
 to ensure that we work with a version that is at the same time current yet
@@ -53,6 +62,17 @@ also value the merits of relative release stability.
 
 If needed, the script `local/script/CreateBoost.sh` can be used to update a forked
 version to a newer version of [Boost](http://www.boost.org/).
+
+### But what about the size?
+
+We know. We erroneously thought that committing the Boost tarballs would be a
+good idea. It wasn't. First attempts at pruning the history
+[using bfg](https://rtyley.github.io/bfg-repo-cleaner/) were not that
+successful.  If someone has a script doing this well we would take another
+look.
+
+Otherwise we recommend to just start from
+[CreateBoost.sh](https://github.com/eddelbuettel/bh/blob/master/local/scripts/CreateBoost.sh). 
 
 ### Authors 
 
