@@ -20,22 +20,20 @@ It can be used via the `LinkingTo:` field in the `DESCRIPTION` field of an R
 package --- and the R package infrastructure tools will then know how to set
 include flags correctly on all architectures supported by R.
 
-Not that this can be used solely by headers-only Boost libraries. This
+Note that this can be used solely by headers-only Boost libraries. This
 covers most of Boost, but excludes some libraries which require linking for
 parts or all of their functionality. 
 
 ### Coverage
 
-As of release 1.65.0-1, the following Boost libraries are included:
+As of release 1.66.0-1, the following Boost libraries are included:
 
-> algorithm align any atomic bimap bind circular_buffer
-> concept config container date_time detail dynamic_bitset
-> exception filesystem flyweight foreach functional fusion
-> geometry graph heap icl integer interprocess intrusive io
-> iostreams iterator math move mpl multiprcecision numeric
-> pending phoenix preprocessor propery_tree random range
-> scope_exit smart_ptr sort spirit tuple type_traits typeof
-> unordered utility uuid
+> algorithm align any atomic bimap bind circular_buffer compute concept
+> config container date_time detail dynamic_bitset exception filesystem
+> flyweight foreach functional fusion geometry graph heap icl integer
+> interprocess intrusive io iostreams iterator math move mpl multiprcecision
+> numeric pending phoenix preprocessor propery_tree random range scope_exit
+> smart_ptr sort spirit tuple type_traits typeof unordered utility uuid
 
 ### See Also
 
