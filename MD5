@@ -1,9 +1,9 @@
-02af2adc4ca6dd15a43b1f49826f99ba *ChangeLog
-0aaee8422647efb0bf90fea96d415be5 *DESCRIPTION
+ba8f324e71037a8a14f912bde60b6313 *ChangeLog
+ef805b10db6fffd5ff18a4ba1911f96b *DESCRIPTION
 8b54e5a89fbda3af5e077053d40bec76 *NAMESPACE
 2fd0b901d53726dc9e7a292cded1676f *README.md
-f654b9fb8bd21cf3dd7fa7bce7231f61 *build/partial.rdb
-846cd6c12eb12b0a76ae75a1cdfc77d9 *inst/NEWS.Rd
+26da940c280fe6c549f32d2189798fe0 *build/partial.rdb
+d050f0d7527eb21b866c41416b7745f9 *inst/NEWS.Rd
 28706cd296b6372619d8e9b8b2c84ee7 *inst/include/boost/accumulators/accumulators.hpp
 771c03b4b0d5da0f8a62158cdce1274b *inst/include/boost/accumulators/accumulators_fwd.hpp
 5f83ac308ea86a5151a998ff2a79406e *inst/include/boost/accumulators/framework/accumulator_base.hpp
@@ -6731,7 +6731,7 @@ c1348531984e300d924715d22d915105 *inst/include/boost/numeric/odeint/stepper/rose
 53b5862de07e54c3c3285beb35e683e9 *inst/include/boost/numeric/odeint/stepper/runge_kutta4.hpp
 2d76301ce5e39cf745fb5cef70762be9 *inst/include/boost/numeric/odeint/stepper/runge_kutta4_classic.hpp
 10dc1efc22bd8b1b1a48301ce6aecc86 *inst/include/boost/numeric/odeint/stepper/runge_kutta_cash_karp54.hpp
-71450f911f358c0fa679046d6631e1e5 *inst/include/boost/numeric/odeint/stepper/runge_kutta_cash_karp54_cl.hpp
+71450f911f358c0fa679046d6631e1e5 *inst/include/boost/numeric/odeint/stepper/runge_kutta_cash_karp54_classic.hpp
 7e60dfc878de076891d659afb40c7ef2 *inst/include/boost/numeric/odeint/stepper/runge_kutta_dopri5.hpp
 50a1751b2a93755592fcf3fb9c9562e2 *inst/include/boost/numeric/odeint/stepper/runge_kutta_fehlberg78.hpp
 df4d1ce398084845780ee8ae3f42dd0e *inst/include/boost/numeric/odeint/stepper/stepper_categories.hpp
