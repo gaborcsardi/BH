@@ -1,3 +1,42 @@
+2020-12-24  Dirk Eddelbuettel  <edd@debian.org>
+
+	* .github/workflows/ci.yaml: Small tweaks to CI YAML file
+
+2020-12-12  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Release 1.75.0-0
+
+	* inst/include/boost/*: Upgraded to Boost 1.75
+
+	* README.md: Updated package list for 1.75
+	* DESCRIPTION (Description): Idem
+
+	* local/scripts/CreateBoost.sh: Update for 1.75.0, added beast
+
+	* .github/workflows/ci.yaml: Add CI runner using r-ci
+	* README.md: Add new badge
+
+	* README.md: Update several URLs to https
+	* inst/NEWS.Rd: Idem
+
+2020-05-03  Dirk Eddelbuettel  <edd@debian.org>
+
+	* inst/LICENSE_1_0.txt: Included from upstream tar.gz
+
+2020-03-31  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Minor badge rearrangement, added example
+
+2020-03-30  Dirk Eddelbuettel  <edd@debian.org>
+
+	* README.md: Added badges, edited, fixed typo
+
+2020-03-15  Dirk Eddelbuettel  <edd@debian.org>
+
+	* DESCRIPTION (Version, Date): Roll minor version
+
+	* NAMESPACE: Removed as not needed without R code
+
 2019-12-28  Dirk Eddelbuettel  <edd@debian.org>
 
 	* DESCRIPTION (Version, Date): Release 1.72.0-3
@@ -22,7 +61,7 @@
 
 	* README.md: Updated package list for 1.72
 
-	* inst/include/boost/numeric/odeint/stepper/generation/: As before
+ 	* inst/include/boost/numeric/odeint/stepper/generation/: As before
 	rename karp54_classic.hpp to karp54_cl.hpp, adjust generation.hpp
 	* inst/include/boost/numeric/ublas/storage.hpp : Add missing include
 	for boost/serialization/array_wrapper.hpp

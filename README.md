@@ -1,17 +1,25 @@
-## bh [![Build Status](https://travis-ci.org/eddelbuettel/bh.svg)](https://travis-ci.org/eddelbuettel/bh) [![License](https://img.shields.io/badge/license-BSL--1.0-brightgreen.svg?style=flat)](http://www.boost.org/users/license.html) [![CRAN](http://www.r-pkg.org/badges/version/BH)](https://cran.r-project.org/package=BH) [![Dependencies](https://tinyverse.netlify.com/badge/BH)](https://cran.r-project.org/package=BH) [![Downloads](http://cranlogs.r-pkg.org/badges/BH?color=brightgreen)](http://www.r-pkg.org/pkg/BH) 
+## bh: Boost Headers for R
 
-Boost Headers for R
+[![Build Status](https://travis-ci.org/eddelbuettel/bh.svg)](https://travis-ci.org/eddelbuettel/bh) 
+[![CI](https://github.com/eddelbuettel/bh/workflows/ci/badge.svg)](https://github.com/eddelbuettel/bh/actions?query=workflow%3Aci)
+[![License](https://img.shields.io/badge/license-BSL--1.0-brightgreen.svg?style=flat)](https://www.boost.org/users/license.html)
+[![CRAN](http://www.r-pkg.org/badges/version/BH)](https://cran.r-project.org/package=BH) 
+[![Dependencies](https://tinyverse.netlify.com/badge/BH)](https://cran.r-project.org/package=BH) 
+[![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/bh)](https://github.com/eddelbuettel/bh)  
+[![Downloads](http://cranlogs.r-pkg.org/badges/BH?color=brightgreen)](https://www.r-pkg.org:443/pkg/BH) 
+[![CRAN use](https://jangorecki.gitlab.io/rdeps/BH/CRAN_usage.svg?sanitize=true)](https://cran.r-project.org/package=BH)
+[![BioConductor use](https://jangorecki.gitlab.io/rdeps/BH/BioC_usage.svg?sanitize=true)](https://cran.r-project.org/package=BH)
 
-### About
+### Synopsis
 
 This package provides [R](https://www.r-project.org) with access to
-[Boost](http://www.boost.org/) header files.  [Boost](http://www.boost.org/)
+[Boost](https://www.boost.org/) header files.  [Boost](https://www.boost.org/)
 provides free peer-reviewed portable C++ source libraries.  A large part of
-[Boost](http://www.boost.org/) is provided as C++ template code which is
+[Boost](https://www.boost.org/) is provided as C++ template code which is
 resolved entirely at compile-time without linking.  
 
 This package aims to provide the most useful subset of
-[Boost](http://www.boost.org/) libraries for template use among CRAN
+[Boost](https://www.boost.org/) libraries for template use among CRAN
 packages. By placing these libraries in this package, we offer a more
 efficient distribution system for CRAN as replication of this code in the
 sources of other packages is avoided.
@@ -26,19 +34,43 @@ parts or all of their functionality.
 
 ### Coverage
 
-As of release 1.72.0-3, the following Boost libraries are included:
+As of release 1.75.0-0, the following Boost libraries are included:
 
-> accumulators algorithm align any atomic bimap bind circular_buffer compute
-> concept config container date_time detail dynamic_bitset exception
+> accumulators algorithm align any atomic beast bimap bind circular_buffer
+> compute concept config container date_time detail dynamic_bitset exception
 > flyweight foreach functional fusion geometry graph heap icl integer
 > interprocess intrusive io iostreams iterator math move mp11 mpl
-> multiprcecision numeric pending phoenix polygon preprocessor propery_tree
+> multiprecision numeric pending phoenix polygon preprocessor propery_tree
 > random range scope_exit smart_ptr sort spirit tuple type_traits typeof
 > unordered utility uuid
 
-### See Also
+### Example
 
-See the [BH](http://dirk.eddelbuettel.com/code/bh.html) page for some more details.
+The [Rcpp Gallery](https://gallery.rcpp.org) contains [several
+examples](https://gallery.rcpp.org/tags/boost/) under its `boost` tag including the introductory
+[first](https://gallery.rcpp.org/articles/a-first-boost-example/) and
+[second](https://gallery.rcpp.org/articles/a-second-boost-example/).  From the
+[first](https://gallery.rcpp.org/articles/a-first-boost-example/), a simple example to compute the
+greatest common demoninator of two integers follows:
+
+```c++
+// [[Rcpp::depends(BH)]]
+
+#include <Rcpp.h>
+#include <boost/math/common_factor.hpp>
+
+// [[Rcpp::export]]
+int computeGCD(int a, int b) {
+    return boost::math::gcd(a, b);
+}
+```
+
+Saving it as `boostExample.cpp` and simple sourcing this `Rcpp::sourceCpp("boostExample.cpp")`
+produces the function `computeGCD()`.  See the [Rcpp Gallery](https://gallery.rcpp.org) for more
+examples. 
+
+
+### See Also
 
 The [mailing list](http://lists.r-forge.r-project.org/cgi-bin/mailman/listinfo/boostheaders-devel)
 at [R-Forge](http://www.r-forge.r-project.org) is a good place for questions,
@@ -54,12 +86,12 @@ to ensure that we work with a version that is at the same time current yet
 mature.  But on occassion, and as needed, and more recently, we will also go
 directly to Boost releases. 
 
-In general, we plan to keep the package up-to-date with [Boost](http://www.boost.org/)
+In general, we plan to keep the package up-to-date with [Boost](https://www.boost.org/)
 upstream, but will not necessarily follow each and every new release as we
 also value the merits of relative release stability. 
 
 If needed, the script `local/script/CreateBoost.sh` can be used to update a forked
-version to a newer version of [Boost](http://www.boost.org/).
+version to a newer version of [Boost](https://www.boost.org/).
 
 ### But what about the size?
 
